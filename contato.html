@@ -21,19 +21,25 @@
 </body>
 <br> 
 <form>
-<label> nome: </label>
-<input type="text" id="nome"><br>
+<label> Nome: </label>
+<input type="text" id="nome" onkeyup="ValidaNome()"><br>
+<div id='txtNome'></div>
 <br>
-<label> email: </label>
-<input type="email" id="email"><br>
+<label> E-mail: </label>
+<input type="email" id="email" onkeyup="validaEmail"><br>
+<div id='txtEmail'></div>
+
 <br>
-<label> assunto: </label><br>
+<label> Assunto: </label><br>
 <textarea type="assunto" id="assunto" cols="60" rows="5"></textarea>
 <br>
 
 <button>Enviar</button>
 <form>
 <br> 
+<div>
+
+</div>
 <h2>Endereço:</h2>
 <p>Praça Nicolau Aranha Pachêco </p> 
 <p>São Paulo-SP</p> 
@@ -47,12 +53,8 @@ loading="lazy"
 
 <hr>
 <footer>
- <p class="center">
-    Todos os direitos reservados: Gabriel Cassimiro &copy
- </p>   
-    
-</footer>
 
+    
 <div class="container"> 
     <a href="https://www.instagram.com/" 
     target="_blank">
@@ -63,4 +65,12 @@ loading="lazy"
     <a href="https://www.linkedin.com/messaging/thread/2-Y2MyNDBjZjAtNzIyNi00N2Y3LTljNDctNTYyYTliZWYwZjk0XzAxMw==/" 
     target="_blank>     
     
+    <p class="center">
+        Todos os direitos reservados: Gabriel Cassimiro &copy
+     </p>   
+
+</footer>
+
+<script>src="assets/js/css"</script>
+</body>
 </html>
