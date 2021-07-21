@@ -6,11 +6,13 @@
         .justify {
             text-align: justify;
         }
-.container {
+        /*pai de todo esse conteudo */
+.container { 
     display: flex;
-    flex-flow: row ;
-    justify-content: center;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: center; /* baseado de como está da esquerda para direita*/
+    align-items: center; /*align itens em cima e embaixo*/ 
+    border: 1px solid red;
 }
 
 #menu li {
